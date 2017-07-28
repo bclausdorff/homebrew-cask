@@ -8,6 +8,7 @@ cask 'grandtotal' do
   name 'GrandTotal'
   homepage 'https://www.mediaatelier.com/GrandTotal4/'
 
+  auto_updates true
   depends_on macos: '>= :mountain_lion'
 
   app 'GrandTotal.app'
